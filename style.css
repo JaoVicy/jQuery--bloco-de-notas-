@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+header{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: blueviolet;
+    padding: 10px;
+    border: 10px rgb(56, 19, 92) outset;
+    color: white;
+}
+header button{
+    margin-left: 30px;
+    background-color: greenyellow;
+    border-radius: 60px;
+    padding: 10px;
+    
+}
+
+form{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(205, 178, 231);
+    display: none;
+}
+
+#acept{
+    margin-left: 10px;
+    background-color: rgb(202, 248, 132);
+    border-radius: 60px;
+    padding: 10px;
+}
+
+#cancel{
+    margin-left: 5px;
+    background-color: rgb(197, 56, 56);
+    border-radius: 60px;
+    padding: 10px;
+}
+#task{
+    padding: 10px;
+    border: 2px solid black;
+}
+ul, li{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.risco{
+    text-decoration: line-through;
+}
